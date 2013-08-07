@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Desafio1 {
 
-  /**
+	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -43,7 +43,7 @@ public class Desafio1 {
 				 else{
 				 numeros[numeroDeElementos] = Integer.parseInt(numero);
 			  	 if(negativo==true){
-			  		 numeros[numeroDeElementos]=-numeros[numeroDeElementos];
+			  		 numeros[numeroDeElementos]=numeros[numeroDeElementos]*-1;
 					 negativo = false;}				
 			    numeroDeElementos++;
 				numero="0";
